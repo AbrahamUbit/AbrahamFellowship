@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li class="dropdown"><a class="active dropbtn" href="#home">Home</a>
+   <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+  <li class="dropdown"><a href="#" class="dropbtn text-uppercase">pages</a>
+ <div class="dropdown-content">
+  <ul>
+   <li> <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   <li> <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+   </li>
+   <li> <a href="#">Link 3</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   <li> <a href="#">Link 4</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+  </li>
+  </ul>
+ </div>
+  </li>
+
+  <li class="dropdown"><a href="#" class="dropbtn text-uppercase">projects</a>
+     <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+
+  <li class="dropdown"><a href="#" class="dropbtn text-uppercase">blog</a>
+  <div class="dropdown-content">
+   <ul>
+     <li class="text-capitalize"> <a href="#">Link 1</a></li>
+     <li> <a href="#">Link 2</a></li>
+     <li><a href="#">Link 3</a></li>
+  </ul>
+    </div>
+  </li>
+  <li class="dropdown">
+  <a href="#" class="dropbtn text-uppercase bg-light text-dark">elements</a>
+   <div class="dropdown-content">
+   <ul>
+   <li class="text-capitalize"> <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   <li class="text-capitalize"> <a href="#">Link 2</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   <li class="text-capitalize"> <a href="#">Link 3</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   <li class="text-capitalize"> <a href="#">Link 4</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 1</a>
+   </li>
+   </ul>
+    </div>
+  </li>
+</ul>
+
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:02:57 GMT -->
+</html>
